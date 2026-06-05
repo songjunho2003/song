@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>번호이동 신청서 - 고고모바일 (KT망)</title>
+  <style>
+    body { font-family: 'Noto Sans KR', sans-serif; padding: 40px; background: #f7f7f7; color: #222; }
+    .sheet { background: #fff; max-width: 800px; margin: 0 auto; padding: 48px 60px; border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    h1 { text-align: center; font-size: 26px; margin-bottom: 6px; }
+    .sub { text-align: center; font-size: 14px; color: #666; margin-bottom: 32px; }
+    section { margin-bottom: 24px; }
+    .heading { font-weight: 700; font-size: 14px; background: #eef2ff; padding: 6px 10px; border-left: 4px solid #2563eb; margin-bottom: 10px; }
+    .row { display: flex; gap: 12px; margin-top: 8px; }
+    .row > div { flex: 1; }
+    .field { font-size: 13px; margin-bottom: 8px; }
+    .field b { display: inline-block; width: 120px; }
+    .field input { border: none; border-bottom: 1px solid #bbb; width: 260px; padding: 2px 4px; font-size: 13px; }
+    textarea { width: 100%; border: 1px solid #bbb; border-radius: 6px; padding: 10px; font-size: 13px; min-height: 80px; resize: vertical; }
+    .signArea { display: flex; gap: 30px; margin-top: 14px; }
+    .signBox { border: 1px solid #bbb; padding: 12px; min-width: 160px; min-height: 60px; }
+    .footer { margin-top: 30px; border-top: 1px solid #ddd; padding-top: 12px; font-size: 12px; color: #666; }
+    .download { display: inline-block; margin-top: 20px; padding: 12px 18px; background: #2563eb; color: #fff; text-decoration: none; border-radius: 6px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <h1>번 호 이 동 신 청 서</h1>
+    <div class="sub">Number Portability Application · 번호이동 해제용 신청서</div>
+
+    <section>
+      <div class="heading">1. 신청인 정보 (Applicant)</div>
+      <div class="row">
+        <div class="field"><b>성명</b> 송 준 호</div>
+        <div class="field"><b>주민등록번호</b> 031221-3******</div>
+      </div>
+      <div class="row">
+        <div class="field"><b>현 연락처(이동 번호)</b> 010-6206-5023</div>
+        <div class="field"><b>이메일</b> ________________________________</div>
+      </div>
+      <div class="field" style="margin-top:8px;"><b>주 소</b> 경기도 화성시 송산면 송산포도로 102-25, 303호</div>
+      <div class="field"><b>현 통신사</b> KT &nbsp;&nbsp; → &nbsp;&nbsp; <b>이동 통신사</b> 고고모바일 (KT망 MVNO)</div>
+    </section>
+
+    <section>
+      <div class="heading">2. 신청 사유 (Reason)</div>
+      <textarea readonly>기존 KT 요금제 대비 고고모바일(KT망)의 저렴한 요금제 발견으로 서비스 비용 효율화를 위해 번호이동을 신청합니다.</textarea>
+    </section>
+
+    <section>
+      <div class="heading">3. 신청인 확인 및 동의 (Consent)</div>
+      <div class="field">본인은 위 번호(010-6206-5023)에 대해 KT와의 이동전화 이용계약을 해지하고, 고고모바일과 새로운 이용계약 체결을 승인합니다. 단, 번호이동 완료 시까지 기존 서비스 이용이 제한될 수 있음을 인지합니다.</div>
+      <div class="signArea">
+        <div>
+          <div class="signBox">신청인 서명<br /><br /></div>
+          <div style="font-size:12px; margin-top:6px;">성명: 송 준 호</div>
+          <div style="font-size:12px;">날짜: 2026.06.05</div>
+        </div>
+        <div>
+          <div class="signBox">대리점 확인<br /><br /></div>
+          <div style="font-size:12px; margin-top:6px;">대리점: 고고모바일 대리점</div>
+          <div style="font-size:12px;">확인: ________________</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="heading">4. 첨부 서류</div>
+      <div class="field">· 신분증(주민등록증) 사본</div>
+      <div class="field">· 본인 명의 휴대폰 또는 명의자 확인 서류(해당시)</div>
+    </section>
+
+    <section>
+      <div class="heading">5. 신청 방법 (From attached images)</div>
+      <div class="field">① 신청서 다운로드 → ② 빈칸 모두 작성 후 PDF 저장 → ③ 신분증 이미지와 함께 발송</div>
+      <div class="field" style="margin-top:6px;"><b>메일 발송:</b> rnp@ktoa.or.kr</div>
+      <div class="field"><b>팩스:</b> 02-541-4370</div>
+      <div class="field"><b>대리점 전화:</b> 1533-6723</div>
+      <div class="field"><b>대리점 담당자 휴대폰:</b> 010-6206-5023</div>
+    </section>
+
+    <div class="footer">
+      본 신청서는 모요플랜 번호이동 해제 안내 화면에 따라 작성되었습니다. 정식 제출은 상기 메일 또는 팩스로 발송 바랍니다.
+    </div>
+
+    <div>
+      <a class="download" href="#" onclick="window.print(); return false;">프린트 / 저장(PDF) 열기</a>
+    </div>
+  </div>
+
+  <script>
+    window.onload = () => {
+      const a = document.querySelector('.download');
+      a.href = document.querySelector('.sheet').outerHTML.split('</html>')[0].replace(/<!DOCTYPE html>[\s\S]*<body>/,'');
+    };
+  </script>
+</body>
+</html>
