@@ -1,0 +1,9 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "model": "openrouter/moonshotai/kimi-k2.6:free",
+  "provider": {
+    "openrouter": {
+      "apiKey": "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"
+    }
+  }
+}
